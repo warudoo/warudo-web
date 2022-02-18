@@ -1,0 +1,105 @@
+/*bagian 3*/
+@media(max-width: 1000px){
+    .k3{
+        height: auto;
+        font-size: 15px;
+    }
+    .kontens{
+        padding: 2em;
+        height: 600px;
+    }
+    .konten{
+        width: 50%;
+    }
+    .konten-txt{
+        width: 90%;
+    }
+    .konten img{
+        width: 3.5em;
+    }
+    .konten-txt h2{
+        font-size: 2em;
+    }
+    .konten-txt p{
+        font-size: 1.2em;
+    }
+    
+}
+@media(max-width: 670px){
+    .k3{
+        height: auto;
+        
+        
+    }
+    .kontens{
+        padding-left: 1em;
+        padding-top: 1em;
+        padding-right: 1em;
+        font-size: 10px;
+    }
+    .konten{
+        width: 50%;
+    }
+    .konten img{
+        width: 1em;
+    }
+    .konten-txt h2{
+        font-size: 1em;
+    }
+    .konten-txt p{
+        font-size: 0.5em;
+
+    }
+}
+/*bagian 4*/
+@media (max-width:980px ) {
+    .image-contents-left{
+        display: inline-block;
+        width: 100%;
+    }
+    .image-contents-middle{
+        display: inline-block;
+        width: 100%;
+        
+    }
+    .image-contents-right{
+        display: inline-block;
+        width: 100%;
+
+    }
+
+    .underlined{
+        font-size: 30px;
+        text-decoration: underline wavy 3px;
+        text-underline-offset: 15px;
+    }
+
+   .karya {
+       font-size: 30px;
+       
+   }
+
+   .tombol-karya{
+       font-size:20px;
+       float: left;
+       
+       
+   }
+   .name{
+
+    font-size: 30px;
+   }
+
+   
+   
+   .tag{
+       font-size: 15px;
+       
+   }
+
+
+    .container {
+        width: 100%;
+    }
+    
+}

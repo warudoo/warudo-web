@@ -1,0 +1,683 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 900;
+}
+
+.header-list li {
+  list-style: none;
+}
+
+/* Tugas Febrian Noviardi Stylesheet */
+.judul{
+    font-family: 'Courgette', cursive;
+    font-size: 60px;
+}
+
+
+header {
+  background-color: #4a7d6d;
+  color: #fff;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+.header-logo {
+  float: left;
+  padding: 3px 10px;
+}
+
+.header-logo h1 {
+  float: right;
+  padding: 8px 10px;
+  font-family: "Dancing Script", cursive;
+}
+
+.logo {
+  width: 50px;
+  margin-top: 7px;
+}
+
+.header-list li {
+  float: left;
+  padding: 20px 10px;
+  margin-left: 10px;
+}
+
+.header-list li:hover {
+  background-color: #4daa8d;
+}
+
+.btn {
+    float: right;
+    background-color: #be255b;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 7px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.btn:hover{
+  box-shadow:1px 1px 10px 1px #be255b;
+}
+
+.btn:active{
+  opacity: 0.9;
+}
+
+.fa-angle-right{
+    margin-left: 5px;
+}
+
+.slide {
+    max-width: auto;
+    height: 690px;
+}
+
+.slide1,.slide2,.slide3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: brightness(50%);
+}
+
+.slide1 {
+    background: url(img/img-1.jpg) no-repeat center;
+    background-size: cover;
+    animation: fade 20s infinite;
+    -webkit-animation: fade 20s infinite;
+}
+
+.slide2 {
+    background: url(img/img-2.jpg) no-repeat center;
+    background-size: cover;
+    animation: fade2 20s infinite;
+    -webkit-animation: fade2 20s infinite;
+}
+
+.slide3 {
+    background: url(img/img-3.jpg) no-repeat center;
+    background-size: cover;
+    animation: fade3 20s infinite;
+    -webkit-animation: fade3 20s infinite;
+}
+
+@keyframes fade {
+    0%{opacity: 1}
+    33.333%{opacity: 0}
+    66.666%{opacity: 0}
+    100%{opacity: 1}
+}
+
+@keyframes fade2 {
+    0%{opacity: 0}
+    33.333%{opacity: 1}
+    66.666%{opacity: 0}
+    100%{opacity: 0}
+}
+
+@keyframes fade3 {
+    0%{opacity: 0}
+    33.333%{opacity: 0}
+    66.666%{opacity: 1}
+    100%{opacity: 0}
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.find {
+    background-color: #be255b;
+    padding: 15px 15px;
+    color: white;
+    border-radius: 7px;
+    text-decoration: none;
+    margin-top: 6px;
+    margin-right: 10px;
+    opacity: 0.8;
+}
+
+.find:hover{
+  box-shadow:1px 1px 10px 1px #be255b;
+}
+
+.find:active{
+  opacity: 0.9;
+}
+
+/* bagian 2 */
+.container2 {
+    width: 80%;
+}
+
+.konten-wrapper {
+    
+    padding-bottom: 500px;
+    
+}
+
+.konten-kiri {
+    float: left;
+    padding-left:50px;
+    font-weight: bold;
+    
+    width: 50%;
+    
+}
+
+.heading {
+    color: #579581;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: underline wavy 2px;
+    text-underline-offset: 10px;
+    padding-bottom: 10px;
+}
+
+.konten-kiri h1 {
+    font-size: 45px;
+    text-align: left;
+}
+
+.konten-kiri img {
+    width: 30%;
+    height: auto;
+    padding-right: 10px;
+    padding-top: 30px;
+}
+
+.konten-kanan {
+    float: right;
+    width: 40%;
+    margin-top: 40px;
+    font-size: 20px;
+    
+}
+
+.konten-kanan p {
+    text-align: justify;
+    padding-bottom: 6px;
+}
+
+.konten-kanan li {
+    padding-top: 10px;
+    
+}
+
+.konten-kanan ul {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+
+
+
+/*fadel*/
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+.k3{
+    height:100%;
+    width: 100%;
+    background-image: url('icon-or-image/andreas-ronningen-S2YssLw97l4-unsplash.jpg');
+    background-size: cover;
+    padding-bottom: 100px;
+    height: 600px;
+    font-size: 16px;
+}
+body{
+    background-color: white;
+}
+.konten img{
+    max-width: 100%;
+    max-height: 100%;
+    width: 3.5em;
+    border: 3px solid cadetblue;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(240, 248, 255, 0.349);
+}
+.konten{
+    float: left;
+    width: 25%;
+
+}
+.kontens{
+    
+    padding-left: 80px;
+    padding-top: 200px;
+    padding-right: 10px;
+    padding-bottom: 100px;
+
+    
+}
+.konten-txt{
+    text-align:left;
+    width: 75%;
+    
+}
+.konten-txt{
+    color: rgb(255, 255, 255);
+}
+.konten-txt h2{
+    font-size: 2em;
+}
+.konten-txt p{
+    font-size: 1em;;
+}
+
+/*bagian 4*/
+.bagian4{
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: px;
+    padding-bottom: 1700px;
+    border-bottom: #4a7d6d 4px solid ;
+}
+.containerdimas{
+    float: left;
+    width: 33.333333333333333333333333333333333%;
+    
+}
+  
+
+.portfolio{
+    margin: 70px 0px;
+}
+
+.underlined{
+    color: #579581;
+    
+    font-weight: bold;
+
+    font-size: 20px;
+    text-decoration: underline wavy 2px;
+    text-underline-offset: 10px;
+    margin-bottom: 60px;
+    
+}
+.karya{
+    
+    font-size: 40px;
+    font-weight: bold;
+    
+    
+    
+}
+.tombol-karya{
+    float: right;
+    font-weight: bolder;
+    background-color: #4a7d6d;
+    padding: 20px 20px;
+    color: white;
+    border-radius: 7px;
+    text-decoration: none;
+    font-size: 16px;
+    
+
+    
+
+
+}
+.tombol-karya:hover{
+    box-shadow:1px 1px 10px 1px #4a7d6d;
+    transition :all 0.2s
+
+}
+
+.tombol-karya:active{
+
+opacity: 0.9;
+}
+.fa-angle-right{
+    margin-left: 5px;
+}
+
+
+
+.tag{
+    padding-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    
+}
+
+.image-contents-left img{
+    border-radius: 10px;
+    opacity: 0.8;
+    
+
+}
+
+.image-contents-middle img{
+    border-radius: 10px;
+    opacity: 0.8;
+    
+
+}
+
+.image-contents-right img{
+    border-radius: 10px;
+    opacity: 0.8;
+
+}
+
+
+
+.tag:hover{
+    color: #579581;
+    transition: all 0.6s;
+}
+.image-contents-left img:hover{
+    opacity: 1;
+    transition: 1s;
+    transform: scale(105%);
+    
+    
+}
+
+.image-contents-middle img:hover{
+    opacity: 1;
+    transition: 1s;
+    transform: scale(105%);
+    
+    
+}
+
+.image-contents-right img:hover{
+    opacity: 1;
+    transition: 1s;
+    transform: scale(105%);
+    
+    
+}
+
+
+.name{
+   
+    display: block;
+    font-size: 28px;
+    font-weight: bolder;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.name:hover{
+    color: #579581;
+    transition: all 0.6s;
+    cursor: pointer;
+
+}
+
+.show-1{
+    
+    padding-top: 50px;
+
+}
+
+/*  responsive tablet dan hp   */
+
+
+@media (max-width:980px ) {
+    .image-contents-left{
+        display: inline-block;
+        width: 100%;
+    }
+    .image-contents-middle{
+        display: inline-block;
+        width: 100%;
+        
+    }
+    .image-contents-right{
+        display: inline-block;
+        width: 100%;
+
+    }
+
+    .underlined{
+        font-size: 60px;
+        text-decoration: underline wavy 5px;
+        text-underline-offset: 20px;
+    }
+
+   .karya {
+       font-size: 80px;
+   }
+
+   .tombol-karya{
+       font-size:40px;
+       float: left;
+       margin-top: 30px;
+       margin-bottom: 30px;
+   }
+   .name{
+
+    font-size: 55px;
+   }
+
+   .show-1 img {
+       margin-top: 50px;
+   }
+   .tag{
+       font-size: 40px;
+       
+   }
+
+
+    .containerdimas {
+        width: 100%;
+    }
+    
+}
+
+
+/*bagian 5*/
+
+
+.container5{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.deskripsi{
+    
+        color: #579581;
+        
+        font-weight: bold;
+    
+        font-size: 20px;
+        text-decoration: underline wavy 2px;
+        text-underline-offset: 10px;
+        margin-bottom: 40px;
+        
+    text-align: left;
+}
+
+.container5 h2{
+    
+        font-size: 40px;
+        
+        text-align: left;
+        padding-bottom: 30px;
+        
+    
+}
+
+.kiri {
+    text-align:left;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    display: block;
+    }
+    
+    .tutor-list{
+        width: 100%;
+        position:relative;
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .tutor-list p{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .pe{
+        font-size: 20px;
+    }
+    
+    
+    .kartu-tutor{
+        width:20%;
+        margin:auto
+    }
+    
+    .kartu-tutor img {
+        width:90%;
+        border-radius:10px;
+        
+        font-weight:1000;
+        font-size:50px;
+        text-align:center;
+        opacity: 0.9;
+        border-style: solid 1px;
+    
+    }
+
+    .kartu-tutor img:hover{
+        opacity: 1;
+        transition: 1s;
+        transform: scale(105%);
+        
+        
+    }
+
+
+
+
+
+    /*foooooter*/
+
+    .footer-wrapper {
+        height: 300px;
+        margin-bottom: 5px;
+        background-color: white;
+        text-align: center;
+        padding-top: 30px;
+        border-top: #4a7d6d 4px solid;
+        margin-top: 120px;
+        width: 100%;
+    }
+    
+    .heading {
+        color: #579581;
+        font-weight: bold;
+        font-size: 26x;
+        text-decoration: underline wavy 2px;
+        text-underline-offset: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .isif {
+        
+        
+    }
+    
+    .about {
+        text-align: justify;
+        float: left;
+        width:60%;
+        padding-right: 60px;
+    }
+    
+    .txt-about {
+        font-size: 25px;
+        padding-top: 10px;
+    }
+    
+    .contact {
+        text-align: left;
+        padding-left:0px;
+        float: left;
+        padding-right: 60px;
+        
+    }
+    
+    .txt-contact {
+        padding-top: 10px;
+    }
+    
+    .sosmed {
+       
+        text-align: left;
+        
+        
+    }
+    
+    .txt-sosmed {
+        width:10%;
+        display: inline-block;
+        padding-top: 10px;
+    }
+    
+    .txt-sosmed a {
+        font-size: 20px;
+        color: #579581;
+        text-decoration: none;
+        font-weight: bold;
+        line-height: 40px;
+    }
+    
+    .copy {
+        opacity: 0.7;
+        text-align: center;
+        font-size: medium;
+        width: 100%;
+    }
+
+    .isif h2 {
+        font-size: 30px;
+    }
+
+    
+    
+    
